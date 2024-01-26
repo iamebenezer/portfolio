@@ -2,8 +2,15 @@ import './App.css'
 import { CiMail } from "react-icons/ci";
 import img from '../src/assets/dp.jpg'
 import { FaGithub } from "react-icons/fa";
-function App() {
+import { useTypewriter, Cursor } from 'react-simple-typewriter';
 
+function App() {
+  const [typeEffect]= useTypewriter({
+    words:["Hey There, I'm Eben"],
+    loop:1,
+    typeSpeed:150,
+    deleteSpeed:80
+  })
   return (
    
     <div className='h-fit'> 
@@ -29,7 +36,8 @@ function App() {
         <div className="flex flex-row justify-between  gap-10">
       <div className="flex flex-col justify-start items-start space-y-32">
       <div>
-      <h1 className='font-head  md:text-[50px]'> Hey There, <br/> I'm Eben</h1>
+      <h1 className='font-head  md:text-[50px]'>
+         Hey There,  <br/> I'm Eben</h1>
       </div>
       <div className="font-text font-bold text-green-900 tracking-wider">
         <span>abegundeebenezer2004@gmail.com</span>
@@ -62,9 +70,11 @@ function App() {
      
      </section>
 {/* Mobile */}
-   <section className='md:hidden flex flex-col h-fit mx-6 pt-8'>
+   <section className='md:hidden   flex flex-col md:h-fit mx-6 pt-8 my-8'>
     <div className='flex justify-startitems-start'>
-    <h1 className='font-head text-[60px] text-teal-950'>Hey There,<br/> I'm Eben</h1>
+    <h1 className='font-head text-[60px] text-teal-950'>
+      
+      {typeEffect}</h1>
     </div>
     <div className="">
       <p className='font-text text-3xl text-teal-900'>I design beautifully simple things, And i love what i do.</p>
@@ -76,7 +86,7 @@ function App() {
 
    {/* What i do */}
 
-        <section className="md:mx-12 pt-4 flex justify-center mx-6 mb-8">
+        <section className="md:mx-12 pt-2 flex justify-center mx-6 mb-8">
           <div className="grid md:grid-cols-2 grid-cols-1 place-content-center place-items-center  ">
           <div className='flex md:hidden flex-col'>
               <h2 className=' md:text-[40px] font-head text-teal-950 text-4xl text-center'>What do i help?</h2>
