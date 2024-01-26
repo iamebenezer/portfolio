@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: head;
+    src: url(/src/assets/fonts/Utendo-Bold.ttf);
+}
+@font-face {
+    font-family: text;
+    src: url(/src/assets/fonts/LTCushion-Medium.ttf);
+}
+@font-face {
+    font-family: brand;
+    src: url(/src/assets/fonts/Snow.otf);
+}
