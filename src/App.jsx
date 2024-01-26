@@ -7,7 +7,7 @@ import { useTypewriter, Cursor } from 'react-simple-typewriter';
 function App() {
   const [typeEffect]= useTypewriter({
     words:["Hey There, I'm Eben"],
-    loop:1,
+    loop:2,
     typeSpeed:150,
     deleteSpeed:80
   })
