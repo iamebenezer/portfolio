@@ -121,7 +121,7 @@ function App() {
                       </div>
                       <div className="">
                         <h3 className='font-head text-teal-950 md:text-[20px] whitespace-nowrap'>Website Design</h3>
-                        <p className="font-text text-teal-900 md:text-[15px]">  50+ Projects</p>
+                        <p className="font-text text-teal-900 md:text-[15px]">  50+ Designs</p>
                       </div>
                       </div>
                 </div>
